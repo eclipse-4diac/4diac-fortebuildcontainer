@@ -17,8 +17,8 @@ pipeline {
             steps {
                 container('containertools') {
                     containerBuild(
-                        credentialsId: 'eclipse4diac+bot',
-                        name: 'https://quay.io/repository/eclipse4diac/4diac-fortebuildcontainer',
+                        credentialsId: 'quay-bot-token',
+                        name: 'quay.io/eclipse4diac/4diac-fortebuildcontainer',
                         version: 'latest'
                     )
                 }
