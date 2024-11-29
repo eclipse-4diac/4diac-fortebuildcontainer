@@ -21,6 +21,7 @@ RUN set -eux; \
 		lcov \
 		libmbedtls-dev \
 		libboost-all-dev \
+  		libpcap-dev \
 	; \
 	rm -rf /var/lib/apt/lists/*
 
