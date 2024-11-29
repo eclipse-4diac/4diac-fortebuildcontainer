@@ -12,7 +12,7 @@
 #      - initial API and implementation and/or initial documentation
 # *******************************************************************************/
 
-FROM buildpack-deps:lunar
+FROM buildpack-deps:noble
 
 RUN set -eux; \
 	apt-get update; \
