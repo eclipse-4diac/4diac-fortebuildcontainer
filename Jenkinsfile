@@ -9,6 +9,7 @@ pipeline {
         stage('build') {
             agent {
                 kubernetes {
+                    label 'basic-ubuntu'
                     yaml loadOverridableResource(
                         libraryResource: 'org/eclipsefdn/container/agent.yml'
                     )
