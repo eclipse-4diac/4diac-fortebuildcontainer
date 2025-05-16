@@ -1,5 +1,5 @@
 #********************************************************************************
-# Copyright (c) 2023 Martin Erich Jobst
+# Copyright (c) 2023, 2025 Martin Erich Jobst
 #
 # This program and the accompanying materials are made available under the
 # terms of the Eclipse Public License 2.0 which is available at
@@ -12,7 +12,7 @@
 #      - initial API and implementation and/or initial documentation
 # *******************************************************************************/
 
-FROM buildpack-deps:noble
+FROM buildpack-deps:plucky
 
 RUN set -eux; \
 	apt-get update; \
